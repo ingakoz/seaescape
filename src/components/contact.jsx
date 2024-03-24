@@ -31,7 +31,7 @@ export const Contact = (props) => {
 
   return (
     <div>
-      <div id="kontakt">
+      <div id="contact">
         <div className="container kontakt-box">
           <div className="col-lg-7 col-md-6 col-sm-6 col-xs-12">
             <div className="row">

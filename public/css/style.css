@@ -498,24 +498,24 @@ header .intro-text {
   color: #888;
 }
 /* Contact Section */
-#kontakt {
+#contact {
   padding: 100px 0 60px;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   color: rgba(255, 255, 255, 0.75);
 }
-#kontakt .section-title {
+#contact .section-title {
   margin-bottom: 40px;
 }
-#kontakt .section-title p {
+#contact .section-title p {
   font-size: 16px;
 }
-#kontakt h2 {
+#contact h2 {
   color: #fff;
   margin-top: 10px;
   margin-bottom: 15px;
   padding-bottom: 15px;
 }
-#kontakt .section-title h2::after {
+#contact .section-title h2::after {
   position: absolute;
   content: "";
   background: rgba(255, 255, 255, 0.3);
@@ -524,26 +524,26 @@ header .intro-text {
   bottom: 0;
   left: 30px;
 }
-#kontakt h3 {
+#contact h3 {
   color: #fff;
   margin-top: 80px;
   margin-bottom: 25px;
   padding-bottom: 20px;
   font-weight: 400;
 }
-#kontakt form {
+#contact form {
   padding-top: 8px;
 }
-#kontakt .text-danger {
+#contact .text-danger {
   color: #cc0033;
   text-align: left;
 }
-#kontakt .btn-custom {
+#contact .btn-custom {
   margin: 30px 0;
   background: transparent;
   border: 2px solid #fff;
 }
-#kontakt .btn-custom:hover {
+#contact .btn-custom:hover {
   color: #1f386e;
   background: #fff;
 }
@@ -553,7 +553,7 @@ label {
   font-family: "Open Sans", sans-serif;
   float: left;
 }
-#kontakt .form-control {
+#contact .form-control {
   display: block;
   width: 100%;
   padding: 6px 12px;
@@ -570,7 +570,7 @@ label {
   -o-transition: none;
   transition: none;
 }
-#kontakt .form-control:focus {
+#contact .form-control:focus {
   border-color: #999;
   outline: 0;
   -webkit-box-shadow: transparent;
@@ -588,18 +588,18 @@ label {
 .form-control:-ms-input-placeholder {
   color: #777;
 }
-#kontakt .contact-item {
+#contact .contact-item {
   margin: 20px 0;
 }
-#kontakt .contact-item span {
+#contact .contact-item span {
   color: rgba(255, 255, 255, 1);
   margin-bottom: 10px;
   display: block;
 }
-#kontakt .contact-item i.fa {
+#contact .contact-item i.fa {
   margin-right: 10px;
 }
-#kontakt .social {
+#contact .social {
   padding-top: 20px;
   margin-top: 20px;
   padding-bottom: 50px;
@@ -608,11 +608,11 @@ label {
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 
-#kontakt .social ul li {
+#contact .social ul li {
   display: inline-block;
   margin: 0 10px;
 }
-#kontakt .social i.fa {
+#contact .social i.fa {
   font-size: 22px;
   width: 48px;
   height: 48px;
@@ -622,7 +622,7 @@ label {
   border-radius: 50%;
   transition: all 0.3s;
 }
-#kontakt .social i.fa:hover {
+#contact .social i.fa:hover {
   color: #608dfd;
   background: #fff;
 }
