@@ -9,9 +9,9 @@ export const Contact = (props) => {
       block3: "Marina Lav",
       block4: "Grljevačka ul. 2a, 21312, Podstrana, Croatia",
       block5: "Phone number",
-      block6: "123 456 789",
+      block6: "+48 600 889 968",
       block7: "Email address",
-      block8: "seaescape@something.com",
+      block8: "info@seaescape.io",
     },
     Polski: {
       block1: "Kontakt",
@@ -19,9 +19,9 @@ export const Contact = (props) => {
       block3: "Marina Lav",
       block4: "Grljevačka 2a, 21312, Podstrana, Chorwacja",
       block5: "Telefon kontaktowy",
-      block6: "123 456 789",
+      block6: "+48 600 889 968",
       block7: "Email",
-      block8: "seaescape@something.com",
+      block8: "info@seaescape.io",
     },
   };
 
