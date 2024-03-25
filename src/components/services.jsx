@@ -64,7 +64,7 @@ export const Services = (props) => {
           <p className='main-content'>{content.block4}</p>
           </div>
           <div className='box-wycieczka'>
-          <h3 className='wycieczki'> <FontAwesomeIcon className='my_icon' icon={faShip}/><b>{content.block3}</b></h3>
+          <h3 className='wycieczki'> <FontAwesomeIcon className='my_icon' icon={faShip}/><b>{content.block5}</b></h3>
           <div className='row'>
           <div className='portfolio-items'>
             {props.data
@@ -84,7 +84,7 @@ export const Services = (props) => {
           </div>
         </div>
         
-          <p className='main-content'>{content.block4}</p>
+          <p className='main-content'>{content.block6}</p>
           </div>
           
           </div>
