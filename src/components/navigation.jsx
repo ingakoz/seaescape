@@ -1,12 +1,6 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 export function Navigation(props) {
-  let [about, setAbout] = useState(false);
-  let [offer, setOffer] = useState(false);
-  let [fleet, setFleet] = useState(false);
-  let [gallery, setGallery] = useState(false);
-  let [contact, setContact] = useState(false);
-
   let content = {
     English: {
       block1: "About Us",
@@ -45,8 +39,8 @@ export function Navigation(props) {
 
     if (category.length >= 0) {
       var cleared_url = uri.substring(0, n);
-      window.history.replaceState({}, document.title, cleared_url);
       console.log(cleared_url);
+      window.history.replaceState({}, document.title, cleared_url);
     }
   }
 
@@ -81,6 +75,7 @@ export function Navigation(props) {
               src="img/sea2.png"
               className="img-responsive nav-logo"
               alt="logo"
+              onClick={clearUrl}
             />{" "}
           </a>{" "}
         </div>
@@ -90,11 +85,7 @@ export function Navigation(props) {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a
-                href="#aboutus"
-                className="page-scroll"
-                onClickCapture={clearUrl}
-              >
+              <a href="#aboutus" className="page-scroll" onClick={clearUrl}>
                 {content.block1}
               </a>
             </li>

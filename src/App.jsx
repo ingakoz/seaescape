@@ -17,38 +17,34 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 });
 
 const App = () => {
-
-    let languageStoredInLocalStorage = localStorage.getItem("language");
-    let [language, setLanguage] = useState(
-      languageStoredInLocalStorage ? languageStoredInLocalStorage : "English"
-    );
-    const [landingPageData, setLandingPageData] = useState({});
-    useEffect(() => {
-      setLandingPageData(JsonData);
-    }, []);
-  
+  let languageStoredInLocalStorage = localStorage.getItem("language");
+  let [language, setLanguage] = useState(
+    languageStoredInLocalStorage ? languageStoredInLocalStorage : "English"
+  );
+  const [landingPageData, setLandingPageData] = useState({});
+  useEffect(() => {
+    setLandingPageData(JsonData);
+  }, []);
 
   return (
     <div>
-       <Navigation
-          language={language}
-          handleSetLanguage={language => {
-            setLanguage(language);
-            storeLanguageInLocalStorage(language);
-          }}
-        />
+      <Navigation
+        language={language}
+        handleSetLanguage={(language) => {
+          setLanguage(language);
+          storeLanguageInLocalStorage(language);
+        }}
+      />
 
-      
       <Header language={language} />
-      <About language={language}/>
-      <Services language={language} data={landingPageData.Portfolio}/>
-      <Features language={language} data={landingPageData.Portfolio}/>
-      <Gallery  language={language} data={landingPageData.Gallery}/>
-      <Contact language={language}/>
-     
+      <About language={language} />
+      <Services language={language} data={landingPageData.Portfolio} />
+      <Features language={language} data={landingPageData.Portfolio} />
+      <Gallery language={language} data={landingPageData.Gallery} />
+      <Contact language={language} />
     </div>
   );
-    }
+};
 
 function storeLanguageInLocalStorage(language) {
   localStorage.setItem("language", language);
