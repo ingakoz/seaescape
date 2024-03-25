@@ -72,12 +72,12 @@ export const Contact = (props) => {
                 <div className="social">
                   <ul>
                     <li>
-                      <a href="https://pl-pl.facebook.com/people/Centrum-Sportowo-Rekreacyjne-Stadion/100054673350132/">
+                      <a href="">
                         <i className="fa fa-facebook"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.instagram.com/stadion_kielce/?hl=pl">
+                      <a href="https://www.instagram.com/sea_escape_yachtcharter/">
                         <i class="fa fa-instagram insta"></i>
                       </a>
                     </li>
