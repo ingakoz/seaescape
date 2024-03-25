@@ -4,7 +4,6 @@
   
   .formbody {
     font-family: Lato;
-    height: 65vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -14,6 +13,7 @@
   }
   .formtitle {
    padding-bottom: 2.8rem;
+   text-align: center !important;
   }
   
   form {
@@ -124,7 +124,6 @@
       }
         .formbody {
         font-family: Lato;
-        height: 65vh;
         width: 100%;
         display: flex;
         flex-direction: column;
