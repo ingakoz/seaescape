@@ -43,13 +43,13 @@ export const About = (props) => {
                 <p>{content.block2}</p>
               </div>
             </div>
-          </div>
-          <h3>{content.block6}</h3>
-          <div className="list-lang">
-            <div className="lang-list">
-              <span className="language-item">✔️ {content.block3}</span>
-              <span className="language-item">✔️ {content.block4}</span>
-              <span className="language-item">✔️ {content.block5}</span>
+            <h3>{content.block6}</h3>
+            <div className="list-lang">
+              <div className="lang-list">
+                <span className="language-item">✔️ {content.block3}</span>
+                <span className="language-item">✔️ {content.block4}</span>
+                <span className="language-item">✔️ {content.block5}</span>
+              </div>
             </div>
           </div>
         </div>
