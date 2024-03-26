@@ -68,13 +68,25 @@
   }
   .datepick {
     display: block;
-
     padding: 10px 10px;
     border-radius: 5px;
     border: 1px solid #d6d1d5;
     margin-top: 5px;
   }
 
+  .MuiDayCalendar-monthContainer {
+    max-width: 320px;
+
+  }
+  .MuiPickersLayout-root  {
+    padding: 1.3rem;
+  }
+  .MuiDayCalendar-weekContainer {
+    max-width: 36px;
+    margin-left: 141px !important;
+  }
+
+ 
   select {
     display: block;
     width: 100%;
