@@ -11,6 +11,7 @@ import JsonData from "./data/data.json";
 
 import "./App.css";
 
+
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
   speedAsDuration: true,
@@ -42,6 +43,7 @@ const App = () => {
       <Features language={language} data={landingPageData.Portfolio} />
       <Gallery language={language} data={landingPageData.Gallery} />
       <Contact language={language} />
+   
     </div>
   );
 };

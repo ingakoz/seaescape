@@ -56,8 +56,8 @@ export function Navigation(props) {
   }, []);
 
   return (
-    <nav id="menu" className="navbar navbar-default navbar-fixed-top">
-      <div className="container">
+    <nav id="menu" className="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div className="container contain-nav">
         <div className="navbar-header">
           <button
             type="button"
@@ -110,10 +110,8 @@ export function Navigation(props) {
                 {content.block5}
               </a>
             </li>
-          </ul>
-        </div>
-      </div>
-      <div className="selector">
+            <li>
+            <div className="selector">
         <select
           className="custom-select"
           value={props.language}
@@ -123,6 +121,11 @@ export function Navigation(props) {
           <option value="Polski">Polski</option>
         </select>
       </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    
     </nav>
   );
 }

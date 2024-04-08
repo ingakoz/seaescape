@@ -65,14 +65,14 @@ export const Contact = (props) => {
                       <i className="fa fa-envelope-o"></i> {content.block7}
                     </span>{" "}
                    
-                   <a href="mailto:seaescape@something.com" className="mail-click"> {content.block8}</a>
+                   <a href={content.block8} className="mail-click"> {content.block8}</a>
                   </p>
                 </div>
 
                 <div className="social">
                   <ul>
                     <li>
-                      <a href="">
+                      <a href="https://www.facebook.com/profile.php?id=61558228761709">
                         <i className="fa fa-facebook"></i>
                       </a>
                     </li>

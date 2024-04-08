@@ -1,20 +1,19 @@
 import React from "react";
-import dayjs from 'dayjs';
-import { DemoContainer } from '@mui/x-date-pickers/internals/demo';
-import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
-import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
-import { DatePicker } from '@mui/x-date-pickers/DatePicker';
+import dayjs from "dayjs";
+import { DemoContainer } from "@mui/x-date-pickers/internals/demo";
+import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
+import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
+import { DatePicker } from "@mui/x-date-pickers/DatePicker";
 import "./formstyle.css";
 
 
 export const Form = (props) => {
-    
   const [email, setEmail] = React.useState("");
   const [name, setName] = React.useState("");
- 
+
   const [dateuntil, setDateuntil] = React.useState("");
   const [acceptedTerms, setAcceptedTerms] = React.useState(false);
-
+  const [boat, setBoat] = React.useState('cranchi')
   var today = new Date();
   var dd = String(today.getDate()).padStart(2, "0");
   var mm = String(today.getMonth() + 1).padStart(2, "0");
@@ -33,6 +32,7 @@ export const Form = (props) => {
       block5: "Until",
       block6: "I accept the terms of service",
       block7: "Send",
+      block8: "Choose requested boat",
     },
     Polski: {
       block1: "Sprawdź dostępność",
@@ -42,6 +42,7 @@ export const Form = (props) => {
       block5: "Do",
       block6: "Akceptuję politykę serwisu",
       block7: "Wyślij",
+      block8: "Preferowana łódź",
     },
   };
 
@@ -77,6 +78,15 @@ export const Form = (props) => {
           onChange={(e) => setEmail(e.target.value)}
           required
         />
+      </label>
+      <label style={{marginBottom: '2rem'}}>
+        {content.block8}:
+        <select name="choice" value={'Cranchi Atlantique 40'} onChange={(e) => setBoat(e.target.value)}>
+          <option value="Cranchi Atlantique 40">Cranchi Atlantique 40</option>
+          <option value="Sealine 28">
+          Sealine 28
+          </option>
+        </select>
       </label>
 
       <LocalizationProvider dateAdapter={AdapterDayjs}>
@@ -117,5 +127,4 @@ export const Form = (props) => {
       <button>{content.block7}</button>
     </form>
   );
-
 };

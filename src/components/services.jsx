@@ -14,17 +14,17 @@ export const Services = (props) => {
       block1: "What We Offer",
       block2: "We pride ourselves on curating exceptional experiences that cater to every maritime desire. Whether you're seeking a brief day of indulgence or an extended nautical adventure, our offerings are designed to exceed your expectations.",
       block3: "1-Day Trips: A Day of Luxury on the Open Sea",
-      block4: "For those yearning for a quick escape, our 1-day trips provide the perfect dose of luxury and relaxation. Cruise along picturesque coastlines, explore secluded coves, and immerse yourself in the tranquility of the open sea. Our meticulously maintained yachts, featuring state-of-the-art amenities and luxurious interiors, ensure that your day on the water is nothing short of extraordinary.",
-      block5: "Up to 2 Weeks Charter: Extended Nautical Bliss",
-      block6: "For those with a penchant for extended voyages, our up to 2 weeks charters offer the ultimate escape. Immerse yourself in the luxury of a private yacht as you chart a course to diverse destinations, from hidden gems to iconic coastal havens. Our fleet of vessels, ranging from sleek sailboats to opulent motor yachts, ensures that your extended voyage is tailored to your preferences. Experience the freedom to explore multiple destinations, each offering unique landscapes, cultural treasures, and unforgettable moments. From vibrant sunsets at sea to thrilling water sports and onshore excursions, our 2-week charters are a passport to a world of maritime bliss.",
+      block4: "For those yearning for a quick escape, our 1-day trips provide the perfect dose of luxury and relaxation. Cruise along picturesque coastlines, explore secluded coves, and immerse yourself in the tranquility of the open sea. Our skippers will gladly take care of you and show you unexpected places around croatian islands.",
+      block5: "Charters for 5 Days and More: Extended Nautical Bliss",
+      block6: "For those who like longer journeys, we recommend charters of min. 5 days. Immerse yourself in the luxury of a private yacht as you freely chart your course. Discover the surrounding islands, surrounded by blue waters, and explore popular towns. Chartering a motorboat is the perfect way to have a perfect vacation.",
     },
     Polski: {
         block1: "Oferta",
-        block2: "Jesteśmy dumni z tego, że możemy zapewnić wyjątkowe doświadczenia, które zaspokoją każde morskie pragnienie. Niezależnie od tego, czy szukasz krótkiego dnia przyjemności, czy dłuższej przygody morskiej, nasza oferta została zaprojektowana tak, aby przekroczyć Twoje oczekiwania.",
+        block2: "Jesteśmy dumni, że możemy zapewnić wyjątkowe doświadczenia, które zaspokoją każde morskie pragnienie. Niezależnie od tego, czy szukasz krótkiej wycieczki morskiej, czy dłuższego czarteru, nasza oferta została zaprojektowana tak, aby przekroczyć Twoje oczekiwania.",
         block3: "Wycieczki 1-dniowe: Dzień luksusu na otwartym morzu",
-        block4: "Dla tych, którzy pragną szybkiej ucieczki, nasze jednodniowe wycieczki zapewniają idealną dawkę luksusu i relaksu. Rejsuj wzdłuż malowniczych wybrzeży, zwiedzaj zaciszne zatoczki i zanurz się w spokoju otwartego morza. Nasze starannie utrzymane jachty, wyposażone w najnowocześniejsze udogodnienia i luksusowe wnętrza, sprawią, że Twój dzień na wodzie będzie po prostu niezwykły.",
-        block5: "Charter 2 tygodniowy: Morskie szczęście na dłużej",
-        block6: "Dla tych, którzy lubią dłuższe podróże, nasze czartery trwające do 2 tygodni oferują najlepszą ucieczkę. Zanurz się w luksusie prywatnego jachtu, wyznaczając kurs do różnych miejsc, od ukrytych klejnotów po kultowe przybrzeżne raje. Nasza flota statków, od eleganckich żaglówek po luksusowe jachty motorowe, gwarantuje, że Twój dłuższy rejs będzie dostosowany do Twoich preferencji. Poczuj swobodę odkrywania wielu miejsc, z których każdy oferuje unikalne krajobrazy, skarby kultury i niezapomniane chwile. Od tętniących życiem zachodów słońca na morzu po ekscytujące sporty wodne i wycieczki lądowe – nasze dwutygodniowe czartery są paszportem do świata morskiej rozkoszy.",
+        block4: "Dla tych, którzy pragną szybkiej ucieczki, nasze jednodniowe wycieczki zapewniają idealną dawkę luksusu i relaksu. Rejsuj wzdłuż malowniczych wybrzeży, zwiedzaj zaciszne zatoczki i zanurz się w spokoju otwartego morza. Zapewniamy profesjonalną kadrę skipperów, którzy z przyjemnością zabiorą Was w zaskakujące zakątki chorwackich wysp.",
+        block5: "Charter od 5 dni: Dłuższa morska przygoda",
+        block6: "Dla tych, którzy lubią dłuższe podróże, polecamy czartery min. 5 dniowe. Zanurz się w luksusie prywatnego jachtu, swobodnie wyznaczając sobie kurs. Odkryj okoliczne wyspy, otoczone lazurową wodą i zwiedzaj popularne miasteczka. Czarter jachtu motorowodnego to idealny sposób na idealne wakacje. ",
       }
     }
 
