@@ -81,7 +81,7 @@ export const Form = (props) => {
       </label>
       <label style={{marginBottom: '2rem'}}>
         {content.block8}:
-        <select name="choice" value={'Cranchi Atlantique 40'} onChange={(e) => setBoat(e.target.value)}>
+        <select name="choice" value={boat} onChange={(e) => setBoat(e.target.value)}>
           <option value="Cranchi Atlantique 40">Cranchi Atlantique 40</option>
           <option value="Sealine 28">
           Sealine 28
