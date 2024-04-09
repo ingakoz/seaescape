@@ -2,10 +2,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { Image } from "./image";
 
-import { faShip} from '@fortawesome/free-solid-svg-icons'
+import { faShip, faAnchor, faAnchorCircleCheck} from '@fortawesome/free-solid-svg-icons'
 import { Fragment } from 'react';
 
-library.add( faShip)
+library.add( faShip, faAnchor,faAnchorCircleCheck )
 
 export const Services = (props) => {
 
@@ -41,7 +41,8 @@ export const Services = (props) => {
 
           <h3 className='wstep'>{content.block2}</h3>
           <div className='box-wycieczka'>
-          <h3 className='wycieczki'> <FontAwesomeIcon className='my_icon' icon={faShip}/><b>{content.block3}</b></h3>
+          <h3 className='wycieczki'> <FontAwesomeIcon className='my_icon' icon={faAnchorCircleCheck}/>
+          {content.block3}</h3>
           <div className='row'>
           <div className='portfolio-items'>
             {props.data
@@ -64,7 +65,8 @@ export const Services = (props) => {
           <p className='main-content'>{content.block4}</p>
           </div>
           <div className='box-wycieczka'>
-          <h3 className='wycieczki'> <FontAwesomeIcon className='my_icon' icon={faShip}/><b>{content.block5}</b></h3>
+          <h3 className='wycieczki'> <FontAwesomeIcon className='my_icon' icon={faAnchorCircleCheck}/>
+          {content.block5}</h3>
           <div className='row'>
           <div className='portfolio-items'>
             {props.data

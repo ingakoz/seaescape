@@ -567,7 +567,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background-image: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
@@ -679,11 +679,21 @@ label {
   display: inline-block;
   margin: 0 10px;
 }
-#contact .social i.fa {
+#contact .social .insta {
   font-size: 22px;
   width: 48px;
   height: 48px;
-  padding: 12px 4px 12px 14px;
+  padding: 12px 4px 12px 12px;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+.fa-facebook {
+  font-size: 22px;
+  width: 48px;
+  height: 48px;
+  padding: 12px 4px 12px 15px;
   border: 2px solid #fff;
   color: #fff;
   border-radius: 50%;
