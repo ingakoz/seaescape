@@ -127,7 +127,7 @@ export const Features = (props) => {
                     <span style={{ marginRight: "2rem" }}>
                       {content.block4}
                     </span>
-                    <span>12</span>
+                    <span>8</span>
 
                     <span style={{ marginRight: "1rem", marginLeft: "5rem" }}>
                       <FontAwesomeIcon className="my_icon" icon={faDoorOpen} />
