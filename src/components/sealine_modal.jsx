@@ -11,6 +11,13 @@ import {
   faGasPump,
   faGlassWaterDroplet,
   faCouch,
+  faDollarSign,
+  faIdCard,
+  faMoon,
+  faWalkieTalkie,
+  faMoneyBillTransfer,
+  faReceipt,
+  faCheck,
 } from "@fortawesome/free-solid-svg-icons";
 
 library.add(
@@ -23,7 +30,14 @@ library.add(
   faToilet,
   faGasPump,
   faGlassWaterDroplet,
-  faCouch
+  faCouch,
+  faDollarSign,
+  faIdCard,
+  faMoon,
+  faWalkieTalkie,
+  faMoneyBillTransfer,
+  faReceipt,
+  faCheck
 );
 
 export const SealineModal = (props) => {
@@ -80,6 +94,23 @@ export const SealineModal = (props) => {
       block49: "Request availability",
       block50: "Inverter",
       block51: "Towels",
+      block52: "Już od 320€ / dzień",
+      block53: "Usługi dodatkowe",
+      block54: "Skipper (dzień)",
+      block55: "Skipper (dzień + noc)",
+      block56: "Silnik do pontonu",
+      block57: "Opłaty dodatkowe",
+      block58: "Płatne przy odbiorze jachtu",
+      block59: "Depozyt zwrotny",
+      block60:
+        "Wymagany przy odbiorze jachtu i zwracany po zwróceniu jachtu bez uszkodzeń",
+      block61: "Podatek turystyczny",
+      block62: "Wymagana licencja",
+      block63: "Standardowy patent sternika motorowodnego",
+      block64: "Licencja radiooperatora SRC VHF",
+      block65: "dzień",
+      block66: "osoba / dzień",
+      block67: "Cena",
     },
     Polski: {
       block1: "Udogodnienia",
@@ -133,6 +164,23 @@ export const SealineModal = (props) => {
       block49: "Sprawdź dostępność",
       block50: "Inwerter",
       block51: "Ręczniki",
+      block52: "From 320€ / daily charter",
+      block53: "Services & Extras",
+      block54: "Daily skipper",
+      block55: "Overnight skipper",
+      block56: "Dinghy engine",
+      block57: "Additional fees",
+      block58: "To be paid at yacht pick-up",
+      block59: "Refundable security deposit",
+      block60:
+        "Required at yacht pick-up and returned upon returning the yacht with no damage",
+      block61: "Turist tax",
+      block62: "Required license",
+      block63: "Standard sailing licence",
+      block64: "VHF license",
+      block65: "daily",
+      block66: "per person per day",
+      block67: "Pricing",
     },
   };
 
@@ -389,6 +437,120 @@ export const SealineModal = (props) => {
           </div>
         </div>
       </div>
+      <div
+        className="amenities"
+        style={{ textAlign: "left", marginTop: "4rem", marginLeft: "2rem" }}
+      >
+        <h4 style={{ marginBottom: "1px" }}>{content.block67}</h4>
+        <hr className="modal-separator" />
+        <div
+          className="cabin-div"
+          style={{ marginTop: "4.5rem", marginBottom: "6rem" }}
+        >
+          <div class="row justify-content-md-center">
+            <div class="col-4 col-sm-4 col-md-4 col-lg-4 text-left">
+              <span className="pricing">{content.block52}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        className="amenities"
+        style={{ textAlign: "left", marginTop: "4rem", marginLeft: "2rem" }}
+      >
+        <h4 style={{ marginBottom: "1px" }}>{content.block53}</h4>
+        <hr className="modal-separator" />
+        <div className="cabin-div" style={{ marginTop: "2rem" }}>
+          <div class="row justify-content-md-center">
+            <div class="col-4 col-sm-4 col-md-4 col-lg-4 text-left">
+              <span style={{ marginRight: "1rem" }}>
+                <FontAwesomeIcon className="my_icon" icon={faIdCard} />
+              </span>
+              <span style={{ marginRight: "2rem" }}>{content.block54}</span>
+            </div>
+            <div class="col-4 col-sm-4 col-md-4 col-lg-4 text-left">
+              <span>100 € / {content.block65}</span>
+            </div>
+          </div>
+          <div class="row justify-content-md-center">
+            <div class="col-4 col-sm-4 col-md-4 col-lg-4 text-left">
+              <span style={{ marginRight: "1.5rem" }}>
+                <FontAwesomeIcon className="my_icon" icon={faMoon} />
+              </span>
+              <span style={{ marginRight: "2rem" }}>{content.block55}</span>
+            </div>
+            <div class="col-4 col-sm-4 col-md-4 col-lg-4 text-left">
+              <span>150 € / {content.block65}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        className="amenities"
+        style={{ textAlign: "left", marginTop: "4rem", marginLeft: "2rem" }}
+      >
+        <h4 style={{ marginBottom: "1px" }}>{content.block57}</h4>
+        <hr className="modal-separator" />
+        <div className="cabin-div" style={{ marginTop: "2rem" }}>
+          <div class="row justify-content-md-center">
+            <div class="col-4 col-sm-4 col-md-4 col-lg-4 text-left">
+              <span style={{ marginRight: "1rem" }}>
+                <FontAwesomeIcon
+                  className="my_icon"
+                  icon={faMoneyBillTransfer}
+                />
+              </span>
+              <span style={{ marginRight: "2rem" }}>{content.block59}</span>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 text-left">
+              <span>1000 € / {content.block65}</span>
+              <p style={{ marginRight: "2rem", fontSize: "10px" }}>
+                {content.block60}
+              </p>
+            </div>
+          </div>
+          <div class="row justify-content-md-center">
+            <div class="col-4 col-sm-4 col-md-4 col-lg-4 text-left">
+              <span style={{ marginRight: "1.6rem" }}>
+                <FontAwesomeIcon className="my_icon" icon={faReceipt} />
+              </span>
+              <span style={{ marginRight: "2rem" }}>{content.block61}</span>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 text-left">
+              <span>1.49 € / {content.block66}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        className="amenities"
+        style={{ textAlign: "left", marginTop: "4rem", marginLeft: "2rem" }}
+      >
+        <h4 style={{ marginBottom: "1px" }}>{content.block62}</h4>
+        <hr className="modal-separator" />
+        <div className="cabin-div" style={{ marginTop: "2rem" }}>
+          <div class="row justify-content-md-center">
+            <div class="col-8 col-sm-8 col-md-8 col-lg-8 text-left">
+              <span style={{ marginRight: "1rem" }}>
+                <FontAwesomeIcon className="my_icon" icon={faCheck} />
+              </span>
+              <span style={{ marginRight: "2rem" }}>{content.block63}</span>
+            </div>
+          </div>
+          <div class="row justify-content-md-center">
+            <div class="col-8 col-sm-8 col-md-8 col-lg-8 text-left">
+              <span style={{ marginRight: "1.6rem" }}>
+                <FontAwesomeIcon className="my_icon" icon={faCheck} />
+              </span>
+              <span style={{ marginRight: "2rem" }}>{content.block64}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <hr
         className="modal-separator"
         style={{ marginTop: "2rem", marginLeft: "2rem", width: "88%" }}
