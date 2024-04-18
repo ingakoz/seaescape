@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-
 export function Navigation(props) {
   let content = {
     English: {
@@ -56,7 +54,11 @@ export function Navigation(props) {
   // }, []);
 
   return (
-    <nav id="menu" className="navbar navbar-default navbar-fixed-top" role="navigation">
+    <nav
+      id="menu"
+      className="navbar navbar-default navbar-fixed-top"
+      role="navigation"
+    >
       <div className="container contain-nav">
         <div className="navbar-header">
           <button
@@ -84,17 +86,17 @@ export function Navigation(props) {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="#aboutus" className="page-scroll" >
+              <a href="#aboutus" className="page-scroll">
                 {content.block1}
               </a>
             </li>
             <li>
-              <a href="#offer" className="page-scroll" >
+              <a href="#offer" className="page-scroll">
                 {content.block3}
               </a>
             </li>
             <li>
-              <a href="#fleet" className="page-scroll" >
+              <a href="#fleet" className="page-scroll">
                 {content.block2}
               </a>
             </li>
@@ -105,26 +107,25 @@ export function Navigation(props) {
             </li>
 
             <li>
-              <a href="#contact" className="page-scroll" >
+              <a href="#contact" className="page-scroll">
                 {content.block5}
               </a>
             </li>
             <li>
-            <div className="selector">
-        <select
-          className="custom-select"
-          value={props.language}
-          onChange={(e) => props.handleSetLanguage(e.target.value)}
-        >
-          <option value="English">English</option>
-          <option value="Polski">Polski</option>
-        </select>
-      </div>
+              <div className="selector">
+                <select
+                  className="custom-select"
+                  value={props.language}
+                  onChange={(e) => props.handleSetLanguage(e.target.value)}
+                >
+                  <option value="English">English</option>
+                  <option value="Polski">Polski</option>
+                </select>
+              </div>
             </li>
           </ul>
         </div>
       </div>
-    
     </nav>
   );
 }
