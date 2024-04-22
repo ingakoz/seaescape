@@ -87,6 +87,10 @@
       "smallImage": "img/galeria/cranchi_1.jpeg"
     },
     {
+      "largeImage": "img/galeria/view_2.jpg",
+      "smallImage": "img/galeria/view_2.jpg"
+    },
+    {
       "largeImage": "img/galeria/cranchi_2.jpeg",
       "smallImage": "img/galeria/cranchi_2.jpeg"
     },
@@ -99,6 +103,14 @@
     {
       "largeImage": "img/galeria/cranchi_4.jpeg",
       "smallImage": "img/galeria/cranchi_4.jpeg"
+    },
+    {
+      "largeImage": "img/galeria/view_1.jpg",
+      "smallImage": "img/galeria/view_1.jpg"
+    },
+    {
+      "largeImage": "img/galeria/view_3.jpg",
+      "smallImage": "img/galeria/view_3.jpg"
     },
     {
       "largeImage": "img/galeria/cranchi_5.jpeg",

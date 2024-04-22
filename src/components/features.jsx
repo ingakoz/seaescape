@@ -85,7 +85,7 @@ export const Features = (props) => {
                 class="card-title"
                 style={{ marginBottom: "3rem", marginTop: "2rem" }}
               >
-                Cranchi Atlantique 40
+                Cranchi Atlantique 40 | DORIAN
               </h5>
               <div>
                 <p

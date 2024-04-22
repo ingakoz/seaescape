@@ -34,7 +34,7 @@ export const Gallery = (props) => {
           <div className='portfolio-items'>
             {props.data
               ? props.data.map((d, i) => (
-                <div key={`${d.title}-${i}`} className='col-sm-6 col-md-4 col-lg-4'>
+                <div style={{height:"300px"}} key={`${d.title}-${i}`} className='col-sm-6 col-md-4 col-lg-4'>
                   <Image title={d.title} largeImage={d.largeImage} smallImage={d.smallImage} />
                 </div>
               ))
