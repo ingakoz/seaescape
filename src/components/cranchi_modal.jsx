@@ -312,7 +312,7 @@ export const CranchiModal = (props) => {
               <FontAwesomeIcon className="my_icon" icon={faUserGroup} />
             </span>
             <span style={{ marginRight: "2rem" }}>{content.block4}</span>
-            <span>8</span>
+            <span>10</span>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-6" style={{ textAlign: "left" }}>
             {" "}
@@ -320,7 +320,7 @@ export const CranchiModal = (props) => {
               <FontAwesomeIcon className="my_icon" icon={faBed} />
             </span>
             <span style={{ marginRight: "2rem" }}>{content.block6}</span>
-            <span>4 + 2</span>
+            <span>4 + 1</span>
           </div>
         </div>
         <div

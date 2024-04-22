@@ -20,8 +20,8 @@
   },
   "Portfolio": [
     {
-      "largeImage": "img/portfolio/cranchi_1.jpeg",
-      "smallImage": "img/portfolio/cranchi_1.jpeg"
+      "largeImage": "img/portfolio/cranchi_full.jpg",
+      "smallImage": "img/portfolio/cranchi_full.jpg"
     },
     {
       "largeImage": "img/portfolio/cranchi_2.jpeg",
@@ -62,6 +62,22 @@
     {
       "largeImage": "img/portfolio/cranchi_10.jpg",
       "smallImage": "img/portfolio/cranchi_10.jpg"
+    },
+    {
+      "largeImage": "img/views/boat_party.jpg",
+      "smallImage": "img/views/boat_party.jpg"
+    },
+    {
+      "largeImage": "img/views/boat_view.jpg",
+      "smallImage": "img/views/boat_view.jpg"
+    },
+    {
+      "largeImage": "img/views/paddleboard.jpg",
+      "smallImage": "img/views/paddleboard.jpg"
+    },
+    {
+      "largeImage": "img/views/snorkeling.jpg",
+      "smallImage": "img/views/snorkeling.jpg"
     }
   ],
  

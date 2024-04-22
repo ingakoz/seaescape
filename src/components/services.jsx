@@ -51,10 +51,10 @@ export const Services = (props) => {
                   <Image largeImage={props.data[0].largeImage} smallImage={props.data[0].smallImage} />
                 </div>
                 <div className='col-sm-6 col-md-4 col-lg-4'>
-                <Image largeImage={props.data[1].largeImage} smallImage={props.data[1].smallImage} />
+                <Image largeImage={props.data[10].largeImage} smallImage={props.data[10].smallImage} />
               </div>
               <div className='col-sm-6 col-md-4 col-lg-4'>
-              <Image largeImage={props.data[2].largeImage} smallImage={props.data[2].smallImage} />
+              <Image largeImage={props.data[3].largeImage} smallImage={props.data[3].smallImage} />
             </div>
             </Fragment>
               
@@ -72,13 +72,13 @@ export const Services = (props) => {
             {props.data
               ? <Fragment>
                 <div className='col-sm-6 col-md-4 col-lg-4'>
-                  <Image largeImage={props.data[3].largeImage} smallImage={props.data[3].smallImage} />
+                  <Image largeImage={props.data[11].largeImage} smallImage={props.data[11].smallImage} />
                 </div>
                 <div className='col-sm-6 col-md-4 col-lg-4'>
-                <Image largeImage={props.data[4].largeImage} smallImage={props.data[4].smallImage} />
+                <Image largeImage={props.data[12].largeImage} smallImage={props.data[12].smallImage} />
               </div>
               <div className='col-sm-6 col-md-4 col-lg-4'>
-              <Image largeImage={props.data[8].largeImage} smallImage={props.data[8].smallImage} />
+              <Image largeImage={props.data[13].largeImage} smallImage={props.data[13].smallImage} />
             </div>
             </Fragment>
               
