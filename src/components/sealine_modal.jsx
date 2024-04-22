@@ -191,22 +191,22 @@ export const SealineModal = (props) => {
   return (
     <div id="sealinemodal">
       <div
-        id="madinah-carousel"
+        id="madinah-carousel1"
         class="carousel slide"
         data-ride="carousel"
         style={{ marginBottom: "3rem" }}
       >
         <ol class="carousel-indicators">
           <li
-            data-target="#madinah-carousel"
+            data-target="#madinah-carousel1"
             data-slide-to="0"
             class="active"
           ></li>
-          <li data-target="#madinah-carousel" data-slide-to="1"></li>
-          <li data-target="#madinah-carousel" data-slide-to="2"></li>
-          <li data-target="#madinah-carousel" data-slide-to="3"></li>
-          <li data-target="#madinah-carousel" data-slide-to="4"></li>
-          <li data-target="#madinah-carousel" data-slide-to="5"></li>
+          <li data-target="#madinah-carousel1" data-slide-to="1"></li>
+          <li data-target="#madinah-carousel1" data-slide-to="2"></li>
+          <li data-target="#madinah-carousel1" data-slide-to="3"></li>
+          <li data-target="#madinah-carousel1" data-slide-to="4"></li>
+          <li data-target="#madinah-carousel1" data-slide-to="5"></li>
         </ol>
 
         <div
@@ -236,7 +236,7 @@ export const SealineModal = (props) => {
 
         <a
           class="left carousel-control"
-          href="#madinah-carousel"
+          href="#madinah-carousel1"
           role="button"
           data-slide="prev"
         >
@@ -245,7 +245,7 @@ export const SealineModal = (props) => {
         </a>
         <a
           class="right carousel-control"
-          href="#madinah-carousel"
+          href="#madinah-carousel1"
           role="button"
           data-slide="next"
         >

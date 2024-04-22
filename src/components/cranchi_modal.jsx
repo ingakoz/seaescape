@@ -19,7 +19,6 @@ import {
   faReceipt,
   faCheck,
 } from "@fortawesome/free-solid-svg-icons";
-import { useState } from "react";
 
 library.add(
   faUserGroup,
@@ -41,7 +40,6 @@ library.add(
 );
 
 export const CranchiModal = (props) => {
-  const [show, setShow] = useState(true);
 
   let content = {
     English: {
