@@ -40,7 +40,6 @@ library.add(
 );
 
 export const CranchiModal = (props) => {
-
   let content = {
     English: {
       block1: "Amenities",

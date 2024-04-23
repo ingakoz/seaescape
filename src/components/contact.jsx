@@ -1,7 +1,6 @@
 import { Form } from "./form/form";
 
 export const Contact = (props) => {
- 
   let content = {
     English: {
       block1: "Contact us",
@@ -35,7 +34,6 @@ export const Contact = (props) => {
         <div className="container kontakt-box">
           <div className="col-lg-7 col-md-6 col-sm-6 col-xs-12">
             <div className="row">
-              
               <div className="section-title">
                 <h2>{content.block1}</h2>
               </div>
@@ -46,8 +44,7 @@ export const Contact = (props) => {
                     <span>
                       <i className="fa fa-map-marker"></i> {content.block2}
                     </span>
-                    {content.block3} <br/>
-                    
+                    {content.block3} <br />
                     {content.block4}
                   </p>
                 </div>
@@ -64,8 +61,10 @@ export const Contact = (props) => {
                     <span>
                       <i className="fa fa-envelope-o"></i> {content.block7}
                     </span>{" "}
-                   
-                   <a href={content.block8} className="mail-click"> {content.block8}</a>
+                    <a href={content.block8} className="mail-click">
+                      {" "}
+                      {content.block8}
+                    </a>
                   </p>
                 </div>
 
@@ -84,11 +83,10 @@ export const Contact = (props) => {
                   </ul>
                 </div>
               </div>
-             
             </div>
           </div>
           <div className="col-lg-5 col-md-6 col-sm-6 col-xs-12">
-          <Form props={props}/>
+            <Form props={props} />
           </div>
         </div>
       </div>
@@ -105,5 +103,4 @@ export const Contact = (props) => {
       </div>
     </div>
   );
-
 };
