@@ -744,7 +744,6 @@ label {
   #o-nas {
     padding-top: 20px;
   }
-  
 
   .navbar {
     padding-bottom: 0.4rem !important;
@@ -797,8 +796,22 @@ label {
   max-width: 38rem;
 }
 .container-cards {
-  margin-left: 1.2rem;
+  margin-left: -1.2rem !important;
 }
+
+.kontakt-box {
+  text-align: center;
+}
+#contact .section-title h2::after {
+  margin-left: 24rem;
+}
+.fa-facebook, .insta {
+  padding-right: 1.3rem !important;
+}
+
+.insta {
+  padding-right: 1.1rem !important;
+};
 .nav-logo {
   max-width: 100px !important;
 }
