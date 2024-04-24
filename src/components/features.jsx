@@ -63,8 +63,7 @@ export const Features = (props) => {
       <div className="container-cards">
         <div>
           <div
-            class="card"
-            className="col-sm-12 col-md-12 col-lg-6"
+            className="col-sm-12 col-md-12 col-lg-6 card"
             style={{
               width: "45rem",
               height: "63rem",
@@ -194,8 +193,7 @@ export const Features = (props) => {
           </div>
 
           <div
-            class="card"
-            className="col-sm-12 col-md-12 col-lg-6"
+            className="col-sm-12 col-md-12 col-lg-6 card"
             style={{
               width: "45rem",
               height: "63rem",

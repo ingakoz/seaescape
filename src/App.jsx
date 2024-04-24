@@ -28,7 +28,7 @@ const App = () => {
   }, []);
 
   return (
-    <div>
+    <div className="main-body">
       <Navigation
         language={language}
         handleSetLanguage={(language) => {

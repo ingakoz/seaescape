@@ -128,6 +128,7 @@
     flex-wrap: wrap;
   }
 
+
   @media (max-width: 768px) {
     form {
         display: flex;
@@ -142,6 +143,7 @@
         justify-content: center;
         align-items: center;
         background-color: white;
+        margin-left: 0;
       }
       .formtitle {
        padding-bottom: 1.8rem;
