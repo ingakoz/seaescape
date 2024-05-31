@@ -20,8 +20,8 @@
   },
   "Portfolio": [
     {
-      "largeImage": "img/portfolio/cranchi_full.jpg",
-      "smallImage": "img/portfolio/cranchi_full.jpg"
+      "largeImage": "img/portfolio/cranchi_full_fixed1.jpg",
+      "smallImage": "img/portfolio/cranchi_full_fixed1.jpg"
     },
     {
       "largeImage": "img/portfolio/cranchi_2.jpeg",
@@ -29,8 +29,8 @@
     },
  
     {
-      "largeImage": "img/portfolio/cranchi_3.jpeg",
-      "smallImage": "img/portfolio/cranchi_3.jpeg"
+      "largeImage": "img/view_4.jpg",
+      "smallImage": "img/view_4.jpg"
     },
    
     {

@@ -72,8 +72,8 @@ export const Services = (props) => {
                     </div>
                     <div className="col-sm-6 col-md-4 col-lg-4">
                       <Image
-                        largeImage={props.data[3].largeImage}
-                        smallImage={props.data[3].smallImage}
+                        largeImage={props.data[2].largeImage}
+                        smallImage={props.data[2].smallImage}
                       />
                     </div>
                   </Fragment>

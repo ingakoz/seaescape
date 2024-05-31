@@ -208,6 +208,8 @@ export const CranchiModal = (props) => {
           <li data-target="#madinah-carousel" data-slide-to="7"></li>
           <li data-target="#madinah-carousel" data-slide-to="8"></li>
           <li data-target="#madinah-carousel" data-slide-to="9"></li>
+          <li data-target="#madinah-carousel" data-slide-to="10"></li>
+          <li data-target="#madinah-carousel" data-slide-to="11"></li>
         </ol>
 
         <div
@@ -215,35 +217,43 @@ export const CranchiModal = (props) => {
           role="listbox"
           style={{ maxHeight: "520px" }}
         >
+        
           <div class="item active">
-            <img src="img/portfolio/cranchi_1.jpeg" alt="0" />
+            <img src="img/portfolio/cranchi_2.jpeg" alt="0" />
           </div>
           <div class="item">
-            <img src="img/portfolio/cranchi_2.jpeg" alt="1" />
+            <img src="img/portfolio/cranchi_4.jpeg" alt="1" />
           </div>
+         
           <div class="item">
-            <img src="img/portfolio/cranchi_3.jpeg" alt="2" />
+            <img src="img/portfolio/cranchi_10.jpg" alt="2" />
           </div>
           <div class="item">
             <img src="img/portfolio/cranchi_4.jpeg" alt="3" />
           </div>
           <div class="item">
-            <img src="img/portfolio/cranchi_5.jpeg" alt="4" />
+            <img src="img/portfolio/main_cabin.jpg" alt="4" />
           </div>
           <div class="item">
-            <img src="img/portfolio/cranchi_6.JPG" alt="5" />
+            <img src="img/portfolio/deck.jpg" alt="5" />
           </div>
           <div class="item">
-            <img src="img/portfolio/cranchi_7.JPG" alt="6" />
+            <img src="img/portfolio/deck2.jpg" alt="6" />
           </div>
           <div class="item">
-            <img src="img/portfolio/cranchi_8.JPG" alt="7" />
+            <img src="img/portfolio/kitchen.jpg" alt="7" />
           </div>
           <div class="item">
-            <img src="img/portfolio/cranchi_10.jpg" alt="8" />
+            <img src="img/portfolio/livingroom1.jpg" alt="8" />
           </div>
           <div class="item">
-            <img src="img/portfolio/cranchi_4.jpeg" alt="9" />
+            <img src="img/portfolio/livingroom2.jpg" alt="9" />
+          </div>
+          <div class="item">
+            <img src="img/portfolio/small_cabin.jpg" alt="10" />
+          </div>
+          <div class="item">
+            <img src="img/portfolio/mainbedroom.jpg" alt="11" />
           </div>
         </div>
 

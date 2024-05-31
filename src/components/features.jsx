@@ -75,7 +75,7 @@ export const Features = (props) => {
             <img
               class="card-img-top"
               className="boat-card"
-              src="./img/cranchi_full.jpg"
+              src="./img/cranchi_main.jpg"
               alt="Card image cap"
             />
             <div class="card-body">

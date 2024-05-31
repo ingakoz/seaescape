@@ -36,7 +36,7 @@ export const Gallery = (props) => {
                     <div
                       style={{ height: "300px" }}
                       key={`${d.title}-${i}`}
-                      className="col-sm-6 col-md-4 col-lg-4"
+                      className="col-sm-12 col-md-4 col-lg-4"
                     >
                       <Image
                         title={d.title}

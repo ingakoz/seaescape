@@ -475,7 +475,10 @@ header .intro-text {
 #galeria {
   padding: 100px 0;
 }
-
+.gallery-item {
+  margin: 1px -15px 0 -14px;
+  padding: 0;
+}
 .portfolio-item {
   margin: 1px -15px 0 -14px;
   padding: 0;
@@ -803,7 +806,7 @@ label {
   text-align: center;
 }
 #contact .section-title h2::after {
-  margin-left: 24rem;
+  margin-left: 13rem;
 }
 .fa-facebook, .insta {
   padding-right: 1.3rem !important;
@@ -819,9 +822,9 @@ label {
 #menu {
   padding: 0;
 }
-body {
-  min-width: fit-content;
 
+.portfolio-item {
+  padding: 1rem;
 }
 
 }
