@@ -83,7 +83,7 @@ export const CranchiModal = (props) => {
       block39: "Outside deck speakers",
       block40: "Flat screen TV",
       block41: "Inside cockpit speakers",
-      block42: "Audio speakers",
+      block42: "Audio system",
       block43: "Sun pads",
       block44: "Microwave",
       block45: "Fridge",
@@ -111,6 +111,7 @@ export const CranchiModal = (props) => {
       block66: "per person per day",
       block67: "Autopilot",
       block68: "Solar panels",
+      block69: "per charter",
     },
     Polski: {
       block1: "Udogodnienia",
@@ -182,6 +183,7 @@ export const CranchiModal = (props) => {
       block66: "osoba / dzień",
       block67: "Autopilot",
       block68: "Panele fotowoltaiczne",
+      block69: "czarter",
     },
   };
 
@@ -441,7 +443,6 @@ export const CranchiModal = (props) => {
             <div class="col-12 col-sm-3 col-md-3 col-lg-3  text-left">
               <h4 className="amenities-title">{content.block16}</h4>{" "}
               <ul>
-                <li>{content.block32}</li>
                 <li>{content.block38}</li>
                 <li>{content.block39}</li>
                 <li>{content.block40}</li>
@@ -556,7 +557,7 @@ export const CranchiModal = (props) => {
               <span style={{ marginRight: "2rem" }}>{content.block59}</span>
             </div>
             <div class="col-6 col-sm-6 col-md-6 col-lg-6 text-left">
-              <span>1200 € / {content.block65}</span>
+              <span>1200 € / {content.block69}</span>
               <p style={{ marginRight: "2rem", fontSize: "10px" }}>
                 {content.block60}
               </p>
