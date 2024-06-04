@@ -67,11 +67,11 @@ export const CranchiModal = (props) => {
       block23: "Radar",
       block24: "Teak on board",
       block25: "Flybridge",
-      block26: "AC?",
+      block26: "AC",
       block27: "Coffee machine",
       block28: "Outside shower",
       block29: "Cooker",
-      block30: "Refrigerator",
+      block30: "Fridge + Refrigerator",
       block31: "Heating",
       block32: "Kitchen utensils",
       block33: "Oven",
@@ -109,6 +109,8 @@ export const CranchiModal = (props) => {
       block64: "VHF license",
       block65: "daily",
       block66: "per person per day",
+      block67: "Autopilot",
+      block68: "Solar panels",
     },
     Polski: {
       block1: "Udogodnienia",
@@ -136,12 +138,12 @@ export const CranchiModal = (props) => {
       block23: "Radar",
       block24: "Teak na pokładzie",
       block25: "Flybridge",
-      block26: "AC?",
+      block26: "AC",
       block27: "Ekspres do kawy",
       block28: "Prysznic zewnętrzny",
       block29: "Kuchenka",
-      block30: "Zamrażarka",
-      block31: "Ogrzewanie",
+      block30: "Lodówka + Zamrażarka",
+      block31: "Ogrzewanie dodatkowe",
       block32: "Sprzęt kuchenny",
       block33: "Piekarnik",
       block34: "Poduszki i koce",
@@ -178,6 +180,8 @@ export const CranchiModal = (props) => {
       block64: "Licencja radiooperatora SRC VHF",
       block65: "dzień",
       block66: "osoba / dzień",
+      block67: "Autopilot",
+      block68: "Panele fotowoltaiczne",
     },
   };
 
@@ -217,14 +221,13 @@ export const CranchiModal = (props) => {
           role="listbox"
           style={{ maxHeight: "520px" }}
         >
-        
           <div class="item active">
             <img src="img/portfolio/cranchi_2.jpeg" alt="0" />
           </div>
           <div class="item">
             <img src="img/portfolio/cranchi_4.jpeg" alt="1" />
           </div>
-         
+
           <div class="item">
             <img src="img/portfolio/cranchi_10.jpg" alt="2" />
           </div>
@@ -405,6 +408,9 @@ export const CranchiModal = (props) => {
             <div class="col-12 col-sm-3 col-md-3 col-lg-3 text-left">
               <h4 className="amenities-title">{content.block14}</h4>
               <ul>
+                <li>{content.block67}</li>
+                <li>{content.block68}</li>
+                <li>{content.block26}</li>
                 <li>{content.block18}</li>
                 <li>{content.block19}</li>
                 <li>{content.block20}</li>
