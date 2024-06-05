@@ -30,7 +30,7 @@ export const Form = (props) => {
       block3: "Email address",
       block4: "From",
       block5: "Until",
-      block6: "I accept the terms of service",
+      block6: "I would like to receive occasional emails with special offers, discounts and other marketing messages.",
       block7: "Send",
       block8: "Prefered yacht",
     },
@@ -40,7 +40,7 @@ export const Form = (props) => {
       block3: "Email",
       block4: "Od",
       block5: "Do",
-      block6: "Akceptuję politykę serwisu",
+      block6: "Zgadzam się na otrzymywanie wiadomości z ofertami specjalnymi, rabatami i innymi informacjami marketingowymi.",
       block7: "Wyślij",
       block8: "Preferowana łódź",
     },
@@ -114,7 +114,7 @@ export const Form = (props) => {
         </DemoContainer>
       </LocalizationProvider>
 
-      <label>
+      <label className="checkboxlabel">
         <input
           name="acceptedTerms"
           type="checkbox"
