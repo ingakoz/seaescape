@@ -412,7 +412,6 @@ export const CranchiModal = (props) => {
               <ul>
                 <li>{content.block67}</li>
                 <li>{content.block68}</li>
-                <li>{content.block26}</li>
                 <li>{content.block18}</li>
                 <li>{content.block19}</li>
                 <li>{content.block20}</li>
