@@ -53,7 +53,7 @@ export const Form = (props) => {
   return (
     <form
       className="formbody"
-      action="https://formspree.io/f/mvoeqgbg"
+      action="https://formspree.io/f/xrbzzwww"
       method="POST"
     >
       <h1 class="formtitle">{content.block1}</h1>
