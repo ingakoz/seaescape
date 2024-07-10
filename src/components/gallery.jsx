@@ -18,11 +18,25 @@ export const Gallery = (props) => {
       block4: "Galeria",
       block5: "Kontakt",
     },
+    Deutsch: {
+      block1: "Gallery",
+      block2:
+        "Welcome to a world where the sun kisses the horizon, and the sea whispers tales of adventure. Our yacht charter experience is more than a journey; it's a visual symphony of luxury, elegance, and boundless horizons. Picture yourself aboard our meticulously curated fleet, each vessel a masterpiece on the water.",
+      block3: "Offer",
+      block4: "Gallery",
+      block5: "Contact",
+    },
   };
 
-  props.language === "Polski"
-    ? (content = content.Polski)
-    : (content = content.English);
+  if (props.language === "Polski") {
+    content = content.Polski
+  }
+  else if (props.language === "Deutsch") {
+    content = content.Deutsch
+  }
+  else {
+    content = content.English
+  }
 
   return (
     <div id="gallery" className="text-center">

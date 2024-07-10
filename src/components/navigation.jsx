@@ -16,6 +16,14 @@ export function Navigation(props) {
       block5: "Kontakt",
       block6: "O_Nas",
     },
+    Deutsch: {
+      block1: "About Us",
+      block2: "Fleet",
+      block3: "Offer",
+      block4: "Gallery",
+      block5: "Contact",
+      block6: "About_Us",
+    }
   };
 
   // function remove_hash_from_url() {
@@ -42,10 +50,15 @@ export function Navigation(props) {
   //   }
   // }
 
-  props.language === "Polski"
-    ? (content = content.Polski)
-    : (content = content.English);
-
+  if (props.language === "Polski") {
+    content = content.Polski
+  }
+  else if (props.language === "Deutsch") {
+    content = content.Deutsch
+  }
+  else {
+    content = content.English
+  }
   // useEffect(() => {
   //   const interval = setInterval(() => {
   //     remove_hash_from_url();
@@ -120,6 +133,7 @@ export function Navigation(props) {
                 >
                   <option value="English">English</option>
                   <option value="Polski">Polski</option>
+                  <option value="Deutsch">Deutsch</option>
                 </select>
               </div>
             </li>

@@ -18,11 +18,27 @@ export const About = (props) => {
       block5: "Chorwacku",
       block6: "Mówimy po:",
     },
+    Deutsch: {
+      block1: "O nas",
+      block2:
+        "Witamy w Sea Escape Yacht Charter, gdzie luksus spotyka się z przygodą na pełnym morzu. Naszym celem jest zapewnienie niezapomnianych wrażeń tym, którzy szukają najlepszej morskiej eskapady. W Sea Escape wierzymy, że ocean ma niezrównaną zdolność inspirowania, odmładzania i łączenia ludzi z pięknem świata przyrody. Kierując się pasją do żeglarstwa i zaangażowaniem w zapewnianie wyjątkowej obsługi, staramy się przekraczać oczekiwania naszych gości, oferując czartery jachtów szyte na miarę, dostosowane do Państwa życzeń. Dołącz do nas i wypłyń w stronę nowych horyzontów, gdzie każda podróż jest okazją do tworzenia cennych wspomnień i doświadczenia magii morza. Witamy na pokładzie!",
+      block3: "Angielsku",
+      block4: "Polsku",
+      block5: "Chorwacku",
+      block6: "Mówimy po:",
+    },
   };
 
-  props.language === "Polski"
-    ? (content = content.Polski)
-    : (content = content.English);
+  if (props.language === "Polski") {
+    content = content.Polski
+  }
+  else if (props.language === "Deutsch") {
+    content = content.Deutsch
+  }
+  else {
+    content = content.English
+  }
+
 
   return (
     <div id="aboutus">

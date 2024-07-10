@@ -22,11 +22,28 @@ export const Contact = (props) => {
       block7: "Email",
       block8: "info@seaescape.io",
     },
+    Deutsch: {
+      block1: "Kontakt",
+      block2: "Adres",
+      block3: "Marina Lav",
+      block4: "Grljevačka 2a, 21312, Podstrana, Chorwacja",
+      block5: "Telefon kontaktowy",
+      block6: "+48 600 889 968",
+      block7: "Email",
+      block8: "info@seaescape.io",
+    },
   };
 
-  props.language === "Polski"
-    ? (content = content.Polski)
-    : (content = content.English);
+  if (props.language === "Polski") {
+    content = content.Polski
+  }
+  else if (props.language === "Deutsch") {
+    content = content.Deutsch
+  }
+  else {
+    content = content.English
+  }
+
 
   return (
     <div>

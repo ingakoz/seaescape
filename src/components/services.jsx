@@ -35,11 +35,28 @@ export const Services = (props) => {
       block6:
         "Dla tych, którzy lubią dłuższe podróże, polecamy czartery min. 5 dniowe. Zanurz się w luksusie prywatnego jachtu, swobodnie wyznaczając sobie kurs. Odkryj okoliczne wyspy, otoczone lazurową wodą i zwiedzaj popularne miasteczka. Czarter jachtu motorowodnego to idealny sposób na idealne wakacje. ",
     },
+    Deutsch: {
+      block1: "What We Offer",
+      block2:
+        "We pride ourselves on curating exceptional experiences that cater to every maritime desire. Whether you're seeking a brief day of indulgence or an extended nautical adventure, our offerings are designed to exceed your expectations.",
+      block3: "1-Day Trips: A Day of Luxury on the Open Sea",
+      block4:
+        "For those yearning for a quick escape, our 1-day trips provide the perfect dose of luxury and relaxation. Cruise along picturesque coastlines, explore secluded coves, and immerse yourself in the tranquility of the open sea. Our skippers will gladly take care of you and show you unexpected places around croatian islands.",
+      block5: "Charters for 5 Days and More: Extended Nautical Bliss",
+      block6:
+        "For those who like longer journeys, we recommend charters of min. 5 days. Immerse yourself in the luxury of a private yacht as you freely chart your course. Discover the surrounding islands, surrounded by blue waters, and explore popular towns. Chartering a motorboat is the perfect way to have a perfect vacation.",
+    },
   };
 
-  props.language === "Polski"
-    ? (content = content.Polski)
-    : (content = content.English);
+  if (props.language === "Polski") {
+    content = content.Polski
+  }
+  else if (props.language === "Deutsch") {
+    content = content.Deutsch
+  }
+  else {
+    content = content.English
+  }
 
   return (
     <div id="offer" className="text-center">

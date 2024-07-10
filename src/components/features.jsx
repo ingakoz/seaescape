@@ -46,11 +46,29 @@ export const Features = (props) => {
       block9: "Łóżka",
       block11: "Zobacz więcej",
     },
+    Deutsch: {
+      block1: "Fleet",
+      block2: "Choose a yacht that meets your needs best.",
+      block3: "Length",
+      block4: "People",
+      block5: "Cabins",
+      block6: "Berths",
+      block7: "Year of production",
+      block8: "Toilets",
+      block9: "Beds",
+      block11: "See more",
+    },
   };
 
-  props.language === "Polski"
-    ? (content = content.Polski)
-    : (content = content.English);
+  if (props.language === "Polski") {
+    content = content.Polski
+  }
+  else if (props.language === "Deutsch") {
+    content = content.Deutsch
+  }
+  else {
+    content = content.English
+  }
 
   return (
     <div id="fleet" className="text-center" style={{ marginBottom: "6rem" }}>

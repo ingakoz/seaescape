@@ -185,11 +185,89 @@ export const CranchiModal = (props) => {
       block68: "Panele fotowoltaiczne",
       block69: "czarter",
     },
+    Deutsch: {
+      block1: "Amenities",
+      block2: "Draught",
+      block3: "Length",
+      block4: "People",
+      block5: "Cabins",
+      block6: "Berths",
+      block7: "Year of production",
+      block8: "Toilets",
+      block9: "Beds",
+      block10: "Beam",
+      block11: "Engine",
+      block12: "Fuel tank",
+      block13: "Water tank",
+      block14: "Navigation and safety",
+      block15: "Saloon and cabins",
+      block16: "Entertainment",
+      block17: "Autopilot?",
+      block18: "Outside GPS plotter",
+      block19: "Bow thruster",
+      block20: "Generator",
+      block21: "Bimini",
+      block22: "Dinghy",
+      block23: "Radar",
+      block24: "Teak on board",
+      block25: "Flybridge",
+      block26: "AC",
+      block27: "Coffee machine",
+      block28: "Outside shower",
+      block29: "Cooker",
+      block30: "Fridge + Refrigerator",
+      block31: "Heating",
+      block32: "Kitchen utensils",
+      block33: "Oven",
+      block34: "Pillows and blankets",
+      block35: "Shower",
+      block36: "Sink",
+      block37: "Washing machine",
+      block38: "Bathing platform",
+      block39: "Outside deck speakers",
+      block40: "Flat screen TV",
+      block41: "Inside cockpit speakers",
+      block42: "Audio system",
+      block43: "Sun pads",
+      block44: "Microwave",
+      block45: "Fridge",
+      block46: "Overview",
+      block47: "Double cabin",
+      block48: "Upper deck bed",
+      block49: "Request availability",
+      block50: "Towels",
+      block51: "Pricing",
+      block52: "From 600€ / daily charter",
+      block53: "Services & Extras",
+      block54: "Daily skipper",
+      block55: "Overnight skipper",
+      block56: "Dinghy engine",
+      block57: "Additional fees",
+      block58: "To be paid at yacht pick-up",
+      block59: "Refundable security deposit",
+      block60:
+        "Required at yacht pick-up and returned upon returning the yacht with no damage",
+      block61: "Turist tax",
+      block62: "Required license",
+      block63: "Standard sailing licence",
+      block64: "VHF license",
+      block65: "daily",
+      block66: "per person per day",
+      block67: "Autopilot",
+      block68: "Solar panels",
+      block69: "per charter",
+    },
   };
 
-  props.language === "Polski"
-    ? (content = content.Polski)
-    : (content = content.English);
+  if (props.language === "Polski") {
+    content = content.Polski
+  }
+  else if (props.language === "Deutsch") {
+    content = content.Deutsch
+  }
+  else {
+    content = content.English
+  }
 
   return (
     <div id="cranchimodal">
@@ -510,7 +588,7 @@ export const CranchiModal = (props) => {
               <span style={{ marginRight: "2rem" }}>{content.block54}</span>
             </div>
             <div class="col-4 col-sm-4 col-md-4 col-lg-4 text-left">
-              <span>100 € / {content.block65}</span>
+              <span>150 € / {content.block65}</span>
             </div>
           </div>
           <div class="row justify-content-md-center">
@@ -521,7 +599,7 @@ export const CranchiModal = (props) => {
               <span style={{ marginRight: "2rem" }}>{content.block55}</span>
             </div>
             <div class="col-4 col-sm-4 col-md-4 col-lg-4 text-left">
-              <span>150 € / {content.block65}</span>
+              <span>200 € / {content.block65}</span>
             </div>
           </div>
           <div class="row justify-content-md-center">

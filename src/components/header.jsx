@@ -1,3 +1,5 @@
+import context from "react-bootstrap/esm/AccordionContext";
+
 export const Header = (props) => {
   let content = {
     English: {
@@ -8,11 +10,22 @@ export const Header = (props) => {
       block1: "Sea Escape Yacht Charter",
       block2: "Twoja niezapomniana podróż czeka!",
     },
+    Deutsch: {
+      block1: "Sea Escape Yacht Charter",
+      block2: "Your Unforgettable Journey Awaits!",
+    },
   };
 
-  props.language === "Polski"
-    ? (content = content.Polski)
-    : (content = content.English);
+  if (props.language === "Polski") {
+    content = content.Polski
+  }
+  else if (props.language === "Deutsch") {
+    content = content.Deutsch
+  }
+  else {
+    content = content.English
+  }
+
 
   return (
     <header id="header">

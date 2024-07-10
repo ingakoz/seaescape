@@ -182,11 +182,87 @@ export const SealineModal = (props) => {
       block66: "osoba / dzień",
       block67: "Cena",
     },
+    Deutsch: {
+      block1: "Amenities",
+      block2: "Draught",
+      block3: "Length",
+      block4: "People",
+      block5: "Cabins",
+      block6: "Berths",
+      block7: "Year of production",
+      block8: "Toilets",
+      block9: "Beds",
+      block10: "Beam",
+      block11: "Engine",
+      block12: "Fuel tank",
+      block13: "Water tank",
+      block14: "Navigation and safety",
+      block15: "Saloon and cabins",
+      block16: "Entertainment",
+      block17: "Autopilot?",
+      block18: "Outside GPS plotter",
+      block19: "Bow thruster",
+      block20: "Generator",
+      block21: "Bimini",
+      block22: "Dinghy",
+      block23: "Radar",
+      block24: "Teak on board",
+      block25: "Flybridge",
+      block26: "AC?",
+      block27: "Coffee machine",
+      block28: "Outside shower",
+      block29: "Cooker",
+      block30: "Refrigerator",
+      block31: "Heating",
+      block32: "Kitchen utensils",
+      block33: "Oven",
+      block34: "Pillows and blankets",
+      block35: "Shower",
+      block36: "Sink",
+      block37: "Washing machine",
+      block38: "Bathing platform",
+      block39: "Outside deck speakers",
+      block40: "Flat screen TV",
+      block41: "Inside cockpit speakers",
+      block42: "Audio speakers",
+      block43: "Sun pads",
+      block44: "Microwave",
+      block45: "Fridge",
+      block46: "Overview",
+      block47: "Double cabin",
+      block48: "Beds in saloon",
+      block49: "Request availability",
+      block50: "Inverter",
+      block51: "Towels",
+      block52: "From 290€ / daily charter",
+      block53: "Services & Extras",
+      block54: "Daily skipper",
+      block55: "Overnight skipper",
+      block56: "Dinghy engine",
+      block57: "Additional fees",
+      block58: "To be paid at yacht pick-up",
+      block59: "Refundable security deposit",
+      block60:
+        "Required at yacht pick-up and returned upon returning the yacht with no damage",
+      block61: "Turist tax",
+      block62: "Required license",
+      block63: "Standard sailing licence",
+      block64: "VHF license",
+      block65: "daily",
+      block66: "per person per day",
+      block67: "Pricing",
+    },
   };
 
-  props.language === "Polski"
-    ? (content = content.Polski)
-    : (content = content.English);
+  if (props.language === "Polski") {
+    content = content.Polski
+  }
+  else if (props.language === "Deutsch") {
+    content = content.Deutsch
+  }
+  else {
+    content = content.English
+  }
 
   return (
     <div id="sealinemodal">
